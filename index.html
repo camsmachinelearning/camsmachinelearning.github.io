@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
     <meta charset="UTF-8">
@@ -8,8 +8,43 @@
     <!-- Add Bootstrap CSS link -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
 
     <style>
+        footer {
+            width: 100%;
+            background-color: #1d2338;
+            /* Lighter grey background color */
+            text-align: left;
+            padding-right: 20px;
+            /* Adjust the right padding */
+            padding-bottom: 40px;
+            padding-top: 40px;
+            padding-left: 600px;
+            /* Adjust the left padding */
+            font-weight: lighter;
+            display: flex;
+            /* Make it a flex container */
+            align-items: center;
+            /* Vertically center content */
+        }
+
+        .footer-logo {
+            max-width: 100px;
+            margin-right: 20px;
+            /* Add margin to separate the image from text */
+        }
+
+        .footer-content {
+            line-height: 1.5;
+            color: white;
+            font-weight: lighter;
+            font-size: 16px;
+            /* Adjust the font size */
+            padding-left: 100px;
+        }
+
         /* Add custom styles here */
         body {
             padding-top: 0;
@@ -190,29 +225,25 @@
             color: #666666;
         }
 
-        /* Footer styles */
-        .footer {
-            background-color: #222222;
-            color: #ffffff;
-            text-align: center;
-            padding: 20px 0;
-            position: fixed;
-            bottom: -100px;
-            /* Start offscreen */
-            left: 0;
-            width: 100%;
-            z-index: 9999;
-            transition: bottom 0.3s ease-in-out;
+        /* Style for social media icons */
+        .social-media-icons {
+            display: flex;
+            /* Use flexbox to arrange icons in a row */
+            justify-content: center;
+            /* Center the icons horizontally */
+            margin-top: 20px;
+            /* Add some top margin for spacing */
         }
 
-        .footer.show {
-            bottom: 0;
-            /* Slide into view at the bottom */
-        }
-
-        .spacer {
-            height: 100px;
-            /* Adjust the height as needed */
+        .social-icon {
+            font-size: 24px;
+            /* Adjust the icon size as needed */
+            margin: 0 10px;
+            /* Add spacing between icons */
+            color: #007bff;
+            /* Change the icon color if desired */
+            text-decoration: none;
+            /* Remove underline from the icons */
         }
     </style>
 </head>
@@ -284,25 +315,161 @@
                     dedicated machine learning course to the school to devote more resources to learning about this
                     critical field and to reach more students.</p>
                 <h3 class="subheading">Sponsorship:</h3>
-                <p class="lorem-ipsum">We are seeking sponsors to support our mission scale up our infrastructure. If you
-                    are interested in sponsoring us please email us at <a href="mailto:camsmachinelearning@gmail.com">camsmachinelearning@gmail.com</a>.</p>
+                <p class="lorem-ipsum">We are seeking sponsors to support our mission scale up our infrastructure. If
+                    you
+                    are interested in sponsoring us please email us at <a
+                        href="mailto:camsmachinelearning@gmail.com">camsmachinelearning@gmail.com</a>.</p>
             </div>
 
             <!-- Content for Club Discussions Tab -->
             <div class="tab-pane fade" id="tab2">
                 <h3 class="subheading">Club Discussions</h3>
-                <p class="lorem-ipsum">	This semester’s discussions will include topics on the ethics of AI art and the usage 
-                    of copyrighted human work for AI development, the path to artificial general intelligence (AGI), 
-                    the future of AI-human interface, and the role of AI in defense. Our discussions will also seek to
-                    engage students who are not in the club but who may be impacted by AI. (basically everyone)
-                    
-                    If you have any topics you would like us to discuss, feel free to contact us!</p>
+                <p class="lorem-ipsum">In this semester, our club discussions will explore a range of engaging topics.
+                    We will delve into the ethical aspects of AI art and the utilization of copyrighted human creations
+                    in AI development. Additionally, we'll examine the path toward achieving artificial general
+                    intelligence (AGI), ponder the future of AI-human interfaces, and discuss the role of AI in defense.
+                    Our aim is to foster discussions that resonate not only with our club members but also with a wider
+                    audience, as AI affects everyone in various ways. If you have specific topics you'd like us to
+                    cover, please don't hesitate to reach out through our 'Contact Us' page. </p>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Discussion</th>
+                            <th>Slides</th> 
+                            <th>Topic</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Discussion 1</td>
+                            <td><a href="#">Slide Link 1</a></td>
+                            <td>Topic 1</td>
+                        </tr>
+                        <tr>
+                            <td>Discussion 2</td>
+                            <td><a href="#">Slide Link 2</a></td>
+                            <td>Topic 2</td>
+                        </tr>
+                        <tr>
+                            <td>Discussion 3</td>
+                            <td><a href="#">Slide Link 3</a></td>
+                            <td>Topic 3</td>
+                        </tr>
+                        <tr>
+                            <td>Discussion 4</td>
+                            <td><a href="#">Slide Link 4</a></td>
+                            <td>Topic 4</td>
+                        </tr>
+                        <tr>
+                            <td>Discussion 5</td>
+                            <td><a href="#">Slide Link 5</a></td>
+                            <td>Topic 5</td>
+                        </tr>
+                        <tr>
+                            <td>Discussion 6</td>
+                            <td><a href="#">Slide Link 6</a></td>
+                            <td>Topic 6</td>
+                        </tr>
+                        <tr>
+                            <td>Discussion 7</td>
+                            <td><a href="#">Slide Link 7</a></td>
+                            <td>Topic 7</td>
+                        </tr>
+                        <tr>
+                            <td>Discussion 8</td>
+                            <td><a href="#">Slide Link 8</a></td>
+                            <td>Topic 8</td>
+                        </tr>
+                        <tr>
+                            <td>Discussion 9</td>
+                            <td><a href="#">Slide Link 9</a></td>
+                            <td>Topic 9</td>
+                        </tr>
+                        <tr>
+                            <td>Discussion 10</td>
+                            <td><a href="#">Slide Link 10</a></td>
+                            <td>Topic 10</td>
+                        </tr>
+
+                        <!-- Add more rows for additional lessons as needed -->
+                    </tbody>
+                </table>
+
             </div>
 
             <!-- Content for Sessions Tab -->
             <div class="tab-pane fade" id="tab3">
                 <h3 class="subheading">Sessions</h3>
-                <p class="lorem-ipsum">Content for Lessons Tab</p>
+                <table class="table">
+                    <p class="lorem-ipsum">Here is a list of the upcoming lessons we have planned, which will be
+                        delivered as YouTube videos. We highly recommend watching these videos, as the club projects we
+                        undertake will be closely related to the content covered in these lessons. Below, you'll find
+                        the list of videos along with their corresponding topics. If you encounter any issues accessing
+                        these videos, please visit our YouTube channel through the 'Contact Us' page for assistance.
+                        Should you have any questions or require further clarification, please do not hesitate to reach
+                        out to us. We are here to help! </p>
+                    <thead>
+                        <tr>
+                            <th>Lesson</th>
+                            <th>Video</th>
+                            <th>Topic</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Lesson 1</td>
+                            <td><a href="#">Video Link 1</a></td>
+                            <td>Topic 1</td>
+                        </tr>
+                        <tr>
+                            <td>Lesson 2</td>
+                            <td><a href="#">Video Link 2</a></td>
+                            <td>Topic 2</td>
+                        </tr>
+                        <tr>
+                            <td>Lesson 3</td>
+                            <td><a href="#">Video Link 3</a></td>
+                            <td>Topic 3</td>
+                        </tr>
+                        <tr>
+                            <td>Lesson 4</td>
+                            <td><a href="#">Video Link 4</a></td>
+                            <td>Topic 4</td>
+                        </tr>
+                        <tr>
+                            <td>Lesson 5</td>
+                            <td><a href="#">Video Link 5</a></td>
+                            <td>Topic 5</td>
+                        </tr>
+                        <tr>
+                            <td>Lesson 6</td>
+                            <td><a href="#">Video Link 6</a></td>
+                            <td>Topic 6</td>
+                        </tr>
+                        <tr>
+                            <td>Lesson 7</td>
+                            <td><a href="#">Video Link 7</a></td>
+                            <td>Topic 7</td>
+                        </tr>
+                        <tr>
+                            <td>Lesson 8</td>
+                            <td><a href="#">Video Link 8</a></td>
+                            <td>Topic 8</td>
+                        </tr>
+                        <tr>
+                            <td>Lesson 9</td>
+                            <td><a href="#">Video Link 9</a></td>
+                            <td>Topic 9</td>
+                        </tr>
+                        <tr>
+                            <td>Lesson 10</td>
+                            <td><a href="#">Video Link 10</a></td>
+                            <td>Topic 10</td>
+                        </tr>
+
+                        <!-- Add more rows for additional lessons as needed -->
+                    </tbody>
+                </table>
             </div>
 
             <!-- Content for Resources Tab -->
@@ -314,12 +481,52 @@
             <!-- Content for Contact Us Tab -->
             <div class="tab-pane fade" id="tab6">
                 <h3 class="subheading">Contact Us</h3>
-                <p class="lorem-ipsum">Feel free to reach out to us by email!
-                    
-                    Email: camsmachinelearning@gmail.com
-                    Instagram: cams.mlc
-                    GitHub: https://github.com/camsmachinelearning</p>
+                <p class="lorem-ipsum">Feel free to reach out to us by the Contacts and Resources that are listed below.
+                </p>
+
+                <div class="row social-media-icons">
+                    <div class="col-md-4 text-center">
+                        <div class="social-icon">
+                            <a href="https://www.instagram.com" target="_blank" style="color: #833AB4;">
+                                <i class="fab fa-instagram fa-4x"></i><br>
+                                Instagram
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <div class="social-icon">
+                            <a href="mailto:camsmachinelearning@gmail.com" style="color: #FF0000;">
+                                <i class="far fa-envelope fa-4x"></i><br>
+                                Email
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <div class="social-icon">
+                            <a href="https://www.youtube.com" target="_blank" style="color: #b2071d;">
+                                <i class="fab fa-youtube fa-4x"></i><br>
+                                YouTube
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Add GitHub link here -->
+                <div class="row social-media-icons mt-4">
+                    <div class="col-md-4 text-center">
+                        <div class="social-icon">
+                            <a href="https://github.com/camsmachinelearning" target="_blank" style="color: #333333;">
+                                <i class="fab fa-github fa-4x"></i><br>
+                                GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
+
+
+
+
 
             <!-- Content for Socials Tab -->
             <div class="tab-pane fade" id="tab4">
@@ -333,7 +540,8 @@
                                 incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
                                 exercitation
                                 ullamco
-                                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+                                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                reprehenderit
                                 in
                                 voluptate
                                 velit
@@ -351,7 +559,8 @@
                                 incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
                                 exercitation
                                 ullamco
-                                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+                                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                reprehenderit
                                 in
                                 voluptate
                                 velit
@@ -369,7 +578,8 @@
                                 incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
                                 exercitation
                                 ullamco
-                                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+                                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                reprehenderit
                                 in
                                 voluptate
                                 velit
@@ -387,7 +597,8 @@
                                 incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
                                 exercitation
                                 ullamco
-                                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+                                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                reprehenderit
                                 in
                                 voluptate
                                 velit
@@ -411,7 +622,14 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <!-- Add custom script to show/hide footer -->
-
+    <footer>
+        <img src="CAMS ML Logo.png" alt="Footer Logo" class="footer-logo rounded-circle">
+        <!-- Add your image source here -->
+        <div class="footer-content">
+            <h3>CAMS Machine Learning Club</h3>
+            <p>1000 E Victoria St, Carson, CA 90747</p>
+        </div>
+    </footer>
 </body>
 
 </html>
