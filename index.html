@@ -3,7 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
     <title>CAMS Machine Learning</title>
     <!-- Add Bootstrap CSS link -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -12,6 +13,18 @@
 
 
     <style>
+        @media (max-width: 767px) {
+            /* Your styles for small screens */
+        }
+
+        @media (min-width: 768px) and (max-width: 992px) {
+            /* Your styles for medium screens */
+        }
+
+        @media (min-width: 993px) {
+            /* Your styles for large screens */
+        }
+
         footer {
             width: 100%;
             background-color: #1d2338;
@@ -335,7 +348,7 @@
                     <thead>
                         <tr>
                             <th>Discussion</th>
-                            <th>Slides</th> 
+                            <th>Slides</th>
                             <th>Topic</th>
                         </tr>
                     </thead>
@@ -418,8 +431,8 @@
                     <tbody>
                         <tr>
                             <td>Lesson 1</td>
-                            <td><a href="#">Video Link 1</a></td>
-                            <td>Topic 1</td>
+                            <td><a href="https://www.youtube.com/watch?v=TuyDS5tqwlo">Video: 1</a></td>
+                            <td>Intro to Kaggle: Running your Teachable Machine Model</td>
                         </tr>
                         <tr>
                             <td>Lesson 2</td>
@@ -487,7 +500,7 @@
                 <div class="row social-media-icons">
                     <div class="col-md-4 text-center">
                         <div class="social-icon">
-                            <a href="https://instagram.com/cams.mlc" target="_blank" style="color: #833AB4;">
+                            <a href="https://www.instagram.com/cams.mlc/" target="_blank" style="color: #833AB4;">
                                 <i class="fab fa-instagram fa-4x"></i><br>
                                 Instagram
                             </a>
