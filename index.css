@@ -1,11 +1,11 @@
 /* @media (max-width: 767px) {
     Your styles for small screens
 }
-
+/*
 @media (min-width: 768px) and (max-width: 992px) {
     Your styles for medium screens
 }
-
+/*
 @media (min-width: 993px) {
     Your styles for large screens
 } */
@@ -14,13 +14,17 @@ footer {
     width: 100%;
     background-color: #1d2338;
     text-align: left;
-    padding-right: 20px;
+    /* padding-right: 20px;
     padding-bottom: 40px;
     padding-top: 40px;
-    padding-left: 600px;
+    padding-left: 600px; */
     font-weight: lighter;
     display: flex;
     align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom:0;
+    height: 200px;
 }
 
 .footer-logo {
@@ -35,6 +39,11 @@ footer {
     font-weight: lighter;
     font-size: 16px;
     padding-left: 100px;
+    text-align: center;
+}
+
+#spacer {
+    height: 210px;
 }
 
 body {
