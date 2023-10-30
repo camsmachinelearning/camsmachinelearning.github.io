@@ -24,7 +24,8 @@ footer {
     justify-content: center;
     position: fixed;
     bottom:0;
-    height: 200px;
+
+    height: 150px;
 }
 
 .footer-logo {
@@ -43,7 +44,7 @@ footer {
 }
 
 #spacer {
-    height: 210px;
+    height: 160px;
 }
 
 body {
@@ -139,7 +140,7 @@ body {
 }
 
 /* Style for lorem ipsum text */
-.lorem-ipsum {
+.text {
     font-size: 22px;
     /* Adjust the font size for the lorem ipsum text */
     padding-right: 250px;
