@@ -1,2 +1,3 @@
 Under development. 
-[camsmachinelearning.com](camsmachinelearning.com).
+
+Accessible at [camsmachinelearning.com](camsmachinelearning.com).
